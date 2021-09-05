@@ -56,7 +56,7 @@ export const Random=()=>{
 }
 
 export const Disco = () => {
-  for(let i=0;i<150;i++){
+  for(let i=0;i<200;i++){
     setTimeout(()=>{
       PixelPainterStore.update(e=>{
         e.canvas =  RandomColor()
